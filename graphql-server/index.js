@@ -7,7 +7,8 @@ const app = express();
 
 const queryResolver = {
   category: ({ id }) => model.category.getById(id),
-  categories: () => model.category.getAll()
+  categories: () => model.category.getAll(),
+  book: ({ id }) => model.book.getById(id)
 };
 
 app.use(cors());

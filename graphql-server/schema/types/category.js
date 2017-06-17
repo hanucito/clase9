@@ -5,11 +5,11 @@ const {
 
 const categoryType = new GraphQLObjectType({
   name: 'Category',
-  description: 'Represents an category of the books',
+  description: 'Represents a category of books',
   fields: () => ({
     id: {
       type: GraphQLString,
-      description: 'The id of the book.'
+      description: 'The category unique id.'
     },
     label: {
       type: GraphQLString,

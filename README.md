@@ -1,6 +1,18 @@
-# clase9 Creando un servidor GraphQL
+# Creando un servidor GraphQL
 
 Empezamos a codear la version GraphQL de nuestra API
+
+## Correr localmente el proyecto
+
+```
+cd graphql-server
+```
+```
+npm intall
+```
+```
+npm start
+```
 
 ## Links utiles
 

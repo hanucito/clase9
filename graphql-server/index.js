@@ -6,6 +6,8 @@ const cors = require('cors');
 const app = express();
 
 const queryResolver = {
+  book: ({ id }) => model.book.getById(id),
+  books: () => model.book.getAll(),
   category: ({ id }) => model.category.getById(id),
   categories: () => model.category.getAll(),
   book: ({ id }) => model.book.getById(id)
